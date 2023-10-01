@@ -1,4 +1,3 @@
-**Model_syntactic_adaptation**
 
 **postag.py**: employ stanza package for multiple corpus annotation (with dependency)
 
