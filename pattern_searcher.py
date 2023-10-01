@@ -25,21 +25,13 @@ def pattern_translator(pattern):
 def match(corpus, a, b, pos, dep, feature, word): 
     return (pos[b] in corpus.iloc[a, 2] and feature[b] in corpus.iloc[a, 3] and word[b] in corpus.iloc[a, 1] and dep[b] in corpus.iloc[a, 6])
 
-def pattern_searcher(path, pattern):   
-   
+def pattern_searcher(path, pattern):      
+    
     # Read in the txt file
     corpus = pd.read_table(path)
     
     # Translate pattern to searchable pos, feature, and word    
     pos, dep, feature, word = pattern_translator(pattern)
-    # pattern = pattern.split()
-    # pos, word, feature, dep = [], [], [], []   
-    # for item in pattern:
-    #     parts = item.split('-', 1)
-    #     feature.append(parts[1] if len(parts) == 2 else '')
-    #     parts = parts[0].split('|', 1)
-    #     word.append(parts[1] if len(parts) == 2 else '')
-    #     pos.append(parts[0])
     
     # check for flexibility
     for i in range(len(pos)):
@@ -51,11 +43,10 @@ def pattern_searcher(path, pattern):
             # word[i:i] = (int_pos-1) * ['']
             pos.pop(i)
             pos[i:i] = int_pos * ['']
-    
+
+    # Perform the search and save the results
     with open(output_file_path, "a") as output_file:
-        sys.stdout = output_file
-    
-        # Perform the search
+        sys.stdout = output_file 
         print(f'Here are the expressions for {pattern}')    
         count = 0
         for i in range(corpus.shape[0]-len(pos)):
