@@ -14,7 +14,7 @@
 
 ## Sample run (with bash) 
 
--python pattern_searcher.py 'sample.txt' '/Users/search/result.txt' 'WP>nsubj 1 VB-Past'
+    -python pattern_searcher.py 'sample.txt' '/Users/search/result.txt' 'WP>nsubj 1 VB-Past'
 
 ## Searches 
 
@@ -43,7 +43,7 @@
 
 ### Passive
 
-    '-Pass'
+   '-Pass'
 
 ### Funtion words frequency
 
