@@ -14,7 +14,7 @@
 
 ## Sample run (with bash) 
 
-python pattern_searcher.py 'sample.txt' '/Users/leasyrin/Desktop/LSTM_project/search/result.txt' '>nsubj 1 VB-Past'
+python pattern_searcher.py 'sample.txt' '/Users/search/result.txt' '>nsubj 1 VB-Past'
 
 ## Searches 
 
