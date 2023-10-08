@@ -18,3 +18,34 @@ python pattern_searcher.py 'sample.txt' '/Users/search/result.txt' 'WP>nsubj 1 V
 
 ## Searches 
 
+### RC
+
+1. all RC
+
+   'WP>nsubj'
+   
+2. RC with who/whom/whose
+
+   'WP>nsubj|who'
+   
+3. RC with which/that
+
+   'WP>nsubj|which'
+   'WP>nsubj|that'
+   
+5. RC with where/when/why
+
+   'WRB-PronType=Rel' 
+   
+6. Passive RC
+
+    'WP>nsubj|wh VB-Past'
+
+### Passive
+
+    '-Pass'
+
+### Funtion words frequency
+
+
+
