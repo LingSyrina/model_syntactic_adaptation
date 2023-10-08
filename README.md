@@ -8,7 +8,7 @@
 
 **POS tagging** (https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html)
 
-**dependency** (https://universaldependencies.org/u/dep/index.html）
+**dependency** (https://universaldependencies.org/u/dep/index.html)
 
 **features** (https://universaldependencies.org/u/feat/index.html)
 
