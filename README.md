@@ -22,24 +22,24 @@
 
 1. all RC
 
-   'WP>nsubj'
+   'NN WP'
    
 2. RC with who/whom/whose
 
-   'WP>nsubj|who'
+   'NN WP|who'
    
 3. RC with which/that
 
-   'WP>nsubj|which'
-   'WP>nsubj|that'
+   'NN WP>nsubj|which'
+   'NN WP>nsubj|that'
    
 5. RC with where/when/why
 
-   'WRB-PronType=Rel' 
+   'NN WRB-PronType=Rel' 
    
 6. Passive RC
 
-    'WP>nsubj|wh VB-Past'
+   'NN WP>nsubj|wh VB-Past'
 
 ### Passive
 
