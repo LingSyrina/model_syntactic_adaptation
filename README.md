@@ -23,15 +23,16 @@
 1. all RC
 
    'NN WP'
+   ('NN WDT', 'NN WRB') 
    
-2. RC with who/whom/whose
+3. RC with who/whom/whose
 
    'NN WP|who'
    
-3. RC with which/that
+4. RC with which/that
 
-   'NN WP>nsubj|which'
-   'NN WP>nsubj|that'
+   'NN WDT|which'
+   'NN WDT|that'
    
 5. RC with where/when/why
 
@@ -39,7 +40,8 @@
    
 6. Passive RC
 
-   'NN WP>nsubj|wh VB-Past'
+   'NN WP>nsubj:pass'
+   'NN WDT>nsubj:pass'
 
 ### Passive
 
